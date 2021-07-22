@@ -1,3 +1,15 @@
+#horizontal {
+  height: 2px;
+  border-width: 2px;
+  max-width: 180px;
+  margin-left: 50px;
+}
+#servicesheading {
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
 .nav-link {
   float: right !important;
 }
@@ -5,14 +17,15 @@
 #my-nav {
   float: right;
 }
-#carimage {
+#sliderimage {
   height: 500px;
   width: 800px;
-  margin-left: 350px;
+  margin-left: 275px;
   margin-right: 200px;
 }
 #content {
-  height: 290px;
+  width: 250px;
+  height: 270px;
 }
 * {
   box-sizing: border-box;
@@ -20,13 +33,49 @@
 
 .flex-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-size: 18px;
 }
 
 .flex-item {
   background-color: white;
   padding: 15px;
+  margin-left: 115px;
+  width: 900px;
+}
+#home {
+  background-color: #dcdcdc;
+}
+#graphictitle {
+  margin-left: 65px;
+  margin-top: 45px;
+  font-size: 70px;
+}
+#graphicservices {
+  margin-left: 115px;
+}
+#graphicshorizontal {
+  height: 2px;
+  border-width: 2px;
+  max-width: 180px;
+  margin-left: 50px;
+  margin-left: 115px;
+}
+.footer-container {
+  display: flex;
+  margin-left: 115px;
+}
+
+.footer-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 500px;
+  height: 300px;
+}
+#insta {
+  margin-left: 70px !important;
 }
 
 @media screen and (max-width: 600px) {
@@ -50,7 +99,7 @@
   .dollarsign {
     color: white;
   }
-  #carimage {
+  #sliderimage {
     height: 290px;
     width: 411px;
     margin-left: 0px;
@@ -68,5 +117,15 @@
   a {
     float: right;
     padding: 2px;
+  }
+  #servicesheading {
+    margin-left: 36px;
+    margin-top: 12px;
+  }
+  #myheading {
+    float: left;
+  }
+  #content {
+    height: 250px;
   }
 }
